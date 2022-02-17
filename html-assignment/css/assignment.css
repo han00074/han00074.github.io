@@ -6,16 +6,16 @@ body{
 header,footer {background-color: rgb(252, 151, 0);
 }
 
-a:link, a:visited{color: royalblue;
+a:link, a:visited{color: rgb(65,105,225);
 }
 a:hover{
-    background-color: lawngreen;
+    background-color: rgb(124,252,0);
 }
 a:link{
     text-decoration: none;
 }
 a:link{
-    background-color: silver;
+    background-color: rgb(192,192,192);
 }
 a:active{
     background-color: rgb(65, 29, 226);
@@ -24,10 +24,10 @@ a:active{
     color: rgb(149, 21, 223);
 }
 #my-image{
-    box-shadow:  0px 0px 2px 1px black;
+    box-shadow:  0px 0px 2px 1px rgb(0,0,0);
     }
 a:link{border-style: solid;}
 ul{list-style-type: square;}
 li:nth-child(odd){
-    background-color: tomato;
+    background-color: rgb(255,99,71);
 }
