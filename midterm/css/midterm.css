@@ -1,0 +1,17 @@
+body{
+    background-color: #aad4cf;
+    font-family: Arial;
+}
+h1{
+    background-image: url("../midterm-images/lone-starfish-wide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 15rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
