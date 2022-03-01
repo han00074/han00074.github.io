@@ -1,17 +1,68 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
 body{
     background-color: #aad4cf;
     font-family: Arial;
 }
+header h1{
+    color: #fff;
+    margin: 0px;
+    padding: 10rem;
+}
 h1{
     background-image: url("../midterm-images/lone-starfish-wide.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    color: rgb(255, 255, 255);
-    font-size: 15rem;
-    font-weight: bold;
-    margin-bottom: 5rem;
+    background-position: top;
+    font-size: 3rem;
+    background-position: right;
+}
+.stage{
+    height: 400px;
+    width: 500px;
+    background-color: yellow;
 }
 .wrapper{
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 100px auto 0 auto;
+}
+nav li{
+    display: inline-block;
+    width: 300px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+nav li::before {
+    content:"|";
+}
+nav li{
+    color: rgb(255, 255, 255);
+}
+img{
+    width: 250px;
+    float: left;
+}
+form {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #c3e7e3;
+  }
+  h2 {
+      font-size: 2rem;
+  }
+  footer {
+    position: -ms-page;
+}
+img{
+    padding: 1px;
+    margin: 12px;
+    width: 200px;
 }
