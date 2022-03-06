@@ -5,6 +5,7 @@ body,html{
     background-color: #7db4ae;
     font-family: Arial;
 }
+/* photo inside the header with the text over the top, to move position for the text */
 .centered {
     position: absolute;
     text-align: center;
@@ -17,23 +18,13 @@ body,html{
     left: 48%;
     transform: translate(-40%, -60%);
   } 
+  /* wrap the full page control it size to make everything in the wrap area. */
 .wrapper{
     max-width: 800px;
     margin: 0px auto 0px auto;
     background-color: #aad4cf;
 }
-nav ul{
-    padding-inline-start: 200px;
-}
-nav li{
-    display: inline-block;
-    width: 100px;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-}
-nav li{
-    color: rgb(0, 0, 0);
-}
+/* make form border around the area size and color */
 .form{
     border: 1px outset black;
 }
@@ -53,6 +44,7 @@ form {
 textarea {
     resize: none;
   }
+  /* photo inside the paragraph float to left side */
 img{
     width: 250px;
     margin: 5px;
@@ -64,9 +56,11 @@ p{
 li{
     font-size: 13.5px;
 }
+/* not footer, but move the text to right */
 .copyright{
     text-align: right;
 }
+/* nav bar design*/
 #nav {
     float:none;
     font: bold 12px Arial, Helvetica, Sans-serif;
@@ -86,7 +80,7 @@ li{
     padding: 15px 15px;
     width: 29.3%;
 }
-
+/* nav menu design and separate add the | in the middle */
 .other {
     display: block;
     color:#000000;
