@@ -1,15 +1,9 @@
-html{
-    box-sizing: border-box;
-}
-*,
-*:before,
-*:after{
-    box-sizing: inherit;
-}
-body{
+
+body,html{
+    height: 100%;
+    margin: 0;  
     background-color: #7db4ae;
     font-family: Arial;
-    margin: 0px;
 }
 .centered {
     position: absolute;
@@ -33,15 +27,12 @@ nav ul{
 }
 nav li{
     display: inline-block;
-    width: 150px;
+    width: 100px;
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
 nav li{
     color: rgb(0, 0, 0);
-}
-nav li::before {
-    content:"|";
 }
 .form{
     border: 1px outset black;
@@ -76,3 +67,39 @@ li{
 .copyright{
     text-align: right;
 }
+#nav {
+    float:none;
+    font: bold 12px Arial, Helvetica, Sans-serif;
+    overflow: hidden;
+    width:100%;
+    min-width: 650px;
+}
+
+#nav ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#nav ul li {
+    float:left;
+    padding: 15px 15px;
+    width: 29.3%;
+}
+
+.other {
+    display: block;
+    color:#000000;
+    text-decoration:none;
+    text-align: center;
+    border-left: 1px solid black;
+}
+
+.home {
+    display: block;
+    color:#000000;
+    text-decoration:none;
+    text-align: center;
+}
+
+
