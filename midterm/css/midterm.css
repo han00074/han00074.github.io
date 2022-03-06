@@ -7,62 +7,61 @@ html{
     box-sizing: inherit;
 }
 body{
-    background-color: #aad4cf;
+    background-color: #7db4ae;
     font-family: Arial;
 }
-header h1{
-    color: #fff;
-    margin: 0px;
-    padding: 10rem;
-}
-h1{
-    background-image: url("../midterm-images/lone-starfish-wide.jpg");
-    background-repeat: no-repeat;
-    background-position: top;
-    font-size: 3rem;
-    background-position: right;
-}
-.stage{
-    height: 400px;
-    width: 500px;
-    background-color: yellow;
-}
+.centered {
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+  }
+.centered {
+    position: absolute;
+    top: 28%;
+    left: 48%;
+    transform: translate(-40%, -60%);
+  } 
 .wrapper{
-    max-width: 1000px;
-    margin: 100px auto 0 auto;
+    max-width: 800px;
+    margin: 0px auto 0px auto;
+    background-color: #aad4cf;
 }
 nav li{
     display: inline-block;
-    width: 300px;
+    width: 145px;
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
-nav li::before {
-    content:"|";
-}
 nav li{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
-img{
-    width: 250px;
-    float: left;
-}
+
 form {
-    border: 1px solid black;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    background-color: #c3e7e3;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #aad4cf;
   }
   h2 {
-      font-size: 2rem;
+      font-size: 1.5rem;
   }
-  footer {
-    position: -ms-page;
-}
+  h4{
+      font-size: 1.3rem;
+  }
+textarea {
+    resize: none;
+  }
 img{
-    padding: 1px;
-    margin: 12px;
-    width: 200px;
+    width: 250px;
+    margin: 5px;
+    float: left;
+}
+p{
+    font-size: 13.5px;
+}
+li{
+    font-size: 13.5px;
 }
