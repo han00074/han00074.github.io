@@ -56,6 +56,14 @@ p{
 li{
     font-size: 13.5px;
 }
+li a{
+    color: black;
+}
+/* delete the nav underline and changed the nav font size */
+ul li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+}
 /* not footer, but move the text to right */
 .copyright{
     text-align: right;
