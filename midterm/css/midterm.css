@@ -5,6 +5,9 @@ body,html{
     background-color: #7db4ae;
     font-family: Arial;
 }
+.img{
+    max-width: 100px;
+}
 /* photo inside the header with the text over the top, to move position for the text */
 .centered {
     position: absolute;
