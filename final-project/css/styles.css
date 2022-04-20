@@ -46,7 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*  css reset done */
+/*  css reset done rewrite the base page */
 html{
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -79,9 +79,6 @@ a:focus {
   display: table;
   clear: both;
 }
-
-
-
 /* mobile size */
 .wrapper {
     background-color: white;
@@ -104,7 +101,7 @@ p {
     margin: 0 auto 0 auto;
 }
 
-
+/* desgin the moblie size nav */
  nav {
     background-color: #222;
     padding: 1rem;
@@ -144,9 +141,8 @@ li a.active {
     background-color: #555;
     color: white;
   }
+/* use extra div the make different layout, background pic rest */
 .home {
-    display: flex;
-    justify-content: center;   
     background-color: rgb(175, 118, 44);
     color: #222;
     background-image: url(../images/logo.png); 
@@ -217,6 +213,7 @@ h3 {
     background-color: rgb(238, 214, 153);
     font-size: 15px;
 }
+/* all page buttons design ...still can not put in a line with p*/
 .button {
     display: flex;
     flex-direction: column;
@@ -290,43 +287,43 @@ hr {
     background-color: #222;
     color: #c78c06;
 }
-  
-    /* Styling a table */
-    table th:nth-child(n),
-    table td:nth-child(n) {
-    border: 1px solid #000;
-    }
-    table {
-    width: 100%;
-    height:5em ;
-    }
-    table {
-    width: 100%;
-    height:7em ;
-    }
-    th,
-    td {
-    height:40px;
-    vertical-align: middle;
-    }
-    th{
-    background-color: rgb(238, 214, 153);
-    }
-    td {
-    padding-left: 1em;
-    }
-    #location {
-    width: 100%;
-    }
 
-    /* Styling a footer */
-    footer {
-        background-color: #222;
-        font-size: 15px;
-        color: rgb(175, 118, 44);
-        padding-top: 30px;
-        padding-bottom: 1rem;
-    }
+/* Styling a table */
+table th:nth-child(n),
+table td:nth-child(n) {
+border: 1px solid #000;
+}
+table {
+width: 100%;
+height:5em ;
+}
+table {
+width: 100%;
+height:7em ;
+}
+th,
+td {
+height:40px;
+vertical-align: middle;
+}
+th{
+background-color: rgb(238, 214, 153);
+}
+td {
+padding-left: 1em;
+}
+#location {
+width: 100%;
+}
+
+/* Styling a footer */
+footer {
+    background-color: #222;
+    font-size: 15px;
+    color: rgb(175, 118, 44);
+    padding-top: 30px;
+    padding-bottom: 1rem;
+}
 
     /*  Desktop Styles */
 @media screen and (min-width: 760px){
@@ -356,7 +353,7 @@ ul li {
     list-style: none;
     text-decoration: none;
     }
-a: :hover {
+a :hover {
     color: white;
 }
 .search input{
@@ -369,10 +366,13 @@ a: :hover {
     color: rgb(175, 118, 44);
         }
 .home {
+    display: flex;
+    justify-content: center; 
     background-color: rgb(175, 118, 44);
     color: #222;
     background-image: none;
 }
+/* nav part for desktop size done */
 #about-us {
         padding: 0px 86px 0px 86px;
         margin-bottom: 12px;
@@ -396,6 +396,7 @@ a: :hover {
 .our-services {
         margin: 0 100px;
     }
+/* use grid to layout all 5 pics */
 .our-services {
     display: grid;
     column-gap: 1em;
