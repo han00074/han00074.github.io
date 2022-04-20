@@ -48,6 +48,8 @@ table {
 }
 /*  css reset done */
 html{
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Roboto', sans-serif;';
     font-size: 12px;
     box-sizing: border-box;
 }
@@ -102,7 +104,7 @@ p {
     margin: 0 auto 0 auto;
 }
 
-}
+
  nav {
     background-color: #222;
     padding: 1rem;
@@ -156,25 +158,44 @@ li a.active {
     width: 90%; 
     height: 40px;
    }
-.centered {
-    position: absolute;
-    color: rgb(255, 255, 255);
-    font-size: 8rem;
-    box-sizing: content-box;  
-    width: 80%;
-    height: 60%;
-    border: 10px solid gray;
-}
-
-.centered {
-    position: absolute;
-    top: 100%;
-    left: 41%;
-    transform: translate(-40%, -60%);
-  } 
+.banner{
+    background:url(../images/main-banner.jpg);
+    background-repeat: no-repeat;
+  }
+   
+.welcome{
+    background-color: rgba(0,0,0,0.45);
+    max-width:1000px;
+    height: 800px;
+    text-align: left;
+    transform: translate(10%, 0%);
+  }
+   
+h1{
+    font-size: 100px;
+    color:white;
+    padding-left: 10px;
+    padding-top: 100px;
+  }
+   
+h1+p{
+    color: white;
+    padding-top:50px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+  }
 .connect {
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
+    background-color: rgb(175, 118, 44);
+    width: 200px;
+    padding: 30px;
+    margin: 10px;
+}
+.connect a {
+    text-decoration: none;
 }
 h2 {
     font-size: 2rem;
@@ -196,9 +217,9 @@ h3 {
     background-color: rgb(238, 214, 153);
     font-size: 15px;
 }
-
-
 .button {
+    display: flex;
+    flex-direction: column;
     font-size: 1rem;
     background-color: #222;
     color: white;
@@ -209,7 +230,33 @@ h3 {
 .button a{
     text-decoration: none;
 }
-
+/* Closing services part and design button */
+.vision {
+    background-image: url(../images/vision.jpg);
+    background-repeat: no-repeat;
+}
+.learn {
+    width:1200px;
+    height: 300px;  
+    font-size: 15px;
+    color:white;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+.button2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 200px;
+    padding: 10px;
+    margin: 50px;
+    background-color: rgb(34, 34, 58);
+    border: 1px solid rgb(175, 118, 44);
+}
+.button2 a{
+    text-decoration: none;
+}
+ /* Closing our vision and design button */  
 .ceo-text {
     background-color: rgb(238, 214, 153);
 }
@@ -280,46 +327,18 @@ footer {
 
 /*  Desktop Styles */
 @media screen and (min-width: 760px){
-/* navbar links*/
+    .nav {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        border: none;
+    }
     .search {
     position: relative;
     color: rgb(175, 118, 44);
 
     }
-    
-    /* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 8px;
-    }
-    li {
-        float: inline-start;
-        text-align: center;
-        }
-  
-    li a {
-    color: goldenrod;
-    display: block;
-    padding: 8px;
-    background-color: #000000;
-    }
 
-    .nav-list a,
-    .nav-list a:link,
-    .nav-list a:visited {
-    display: block;
-    padding: 1em 0;
-    text-decoration: none;
-    }
-    .nav-list a:hover,
-    .nav-list a:focus {
-    color: #222;
-    background-color: rgb(175, 118, 44);
-    display: :block;
-    }
-    .im-care-right::before {
-    font-size: 1.2rem;
-    } */
     #about-us {
         padding: 0px 86px 0px 86px;
         margin-bottom: 12px;
